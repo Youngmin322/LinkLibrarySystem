@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Link Library System</title>
+	<style>
+		/* Add your CSS styles for the login page */
+		body {
+			font-family: 'Work Sans', sans-serif;
+			background-color: #f4f4f4;
+			margin: 0;
+			padding: 0;
+		}
+
+		.login-container {
+			width: 100%;
+			max-width: 400px;
+			margin: 100px auto;
+			padding: 40px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+		}
+
+		.login-container h2 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.login-form input[type="text"],
+		.login-form input[type="password"],
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+
+		.login-form input[type="submit"] {
+			background-color: #007bff;
+			color: #fff;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.login-form input[type="submit"]:hover {
+			background-color: #0056b3;
+		}
+	</style>
+</head>
+<body>
+
+<nav class="site-nav">
+	<div class="container">
+		<div class="menu-bg-wrap">
+			<div class="site-navigation">
+				<a href="index.jsp" class="logo m-0 float-start">Link Library System</a>
+
+				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					<li><a href="index.jsp">Home</a></li>
+					<li><a href="gps.html">GPS</a></li>
+					<li><a href="review.html">Review</a></li>
+					<li class="active"><a href="login.html">Login</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+
+				<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_3.jpg');">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-9 text-center mt-5">
+				<h1 class="heading" data-aos="fade-up">Login</h1>
+
+				<nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
+					<ol class="breadcrumb text-center justify-content-center">
+						<li class="breadcrumb-item "><a href="index.jsp">Home</a></li>
+						<li class="breadcrumb-item active text-white-50" aria-current="page">Login</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="login-container">
+	<h2>Login</h2>
+	<form class="login-form" action="your_login_action_here" method="POST">
+		<input type="text" name="username" placeholder="Username" required>
+		<input type="password" name="password" placeholder="Password" required>
+		<input type="submit" value="Login">
+	</form>
+</div>
+
+<div class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<!-- First column of the footer -->
+			</div>
+			<div class="col-lg-4">
+				<!-- Second column of the footer -->
+			</div>
+			<div class="col-lg-4">
+				<!-- Third column of the footer -->
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+				<p>Copyright ©<script>document.write(new Date().getFullYear());</script>.
+					All Rights Reserved. — Designed with love by <a href="https://untree.co">Untree.co</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/tiny-slider.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
